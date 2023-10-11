@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    color: #6c757f;
+    background-color: rgba(20,21,25,255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    background-color: #262f38;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.star svg {
+    margin-top: 30%;
+}
+
+h1 {
+    color: white;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: #212832;
+    padding: 30px;
+    border-radius: 25px;
+    width: 55%;
+}
+
+.card-rating p{
+    
+}
+
+.card-thankyou {
+    visibility: hidden;
+}
+
+.selected {
+    background-color: orange;
+}
+
